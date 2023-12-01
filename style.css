@@ -83,23 +83,15 @@ li {
     scroll-snap-type: x mandatory;
     display: flex;
     margin: 10px;
-    width: 1000px;
-    border-radius: 20px;
+    gap: 10px;
+    width: 1200px;
+    max-width: 90vw;
 }
 
 .carousel img {
-    max-width: 1000px;
+    max-width: 90%;
+    border-radius: 10px;
     scroll-snap-align: none center;
-}
-
-@media (max-width: 1100px){
-    .carousel {
-        width: 90vw;
-    }
-
-    .carousel img {
-        max-width: 90vw;
-    }
 }
 
 .interest-container {
